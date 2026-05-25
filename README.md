@@ -1,5 +1,7 @@
 # Spatio-Temporal Crime Occurrence Prediction and Crime Type Forecasting in Chicago
 
+[![DOI](https://zenodo.org/badge/1249447478.svg)](https://doi.org/10.5281/zenodo.20384165)
+
 This project presents a reproducible machine learning pipeline for short-term crime occurrence prediction and grouped crime type forecasting using the Chicago Crime Dataset.
 
 The original event-level crime records were transformed into a supervised Community Area × Hour dataset, allowing models to learn from both crime and no-crime observations.
