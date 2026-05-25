@@ -1,0 +1,15 @@
+{
+  "split_type": "chronological_by_hour_no_shuffle",
+  "split_time": "2025-08-08 16:00:00",
+  "classes": [
+    "Other",
+    "Property",
+    "Violent"
+  ],
+  "train_rows": 293375,
+  "test_rows": 69387,
+  "train_start": "2024-01-01 21:00:00",
+  "train_end": "2025-08-08 15:00:00",
+  "test_start": "2025-08-08 16:00:00",
+  "test_end": "2026-01-01 20:00:00"
+}

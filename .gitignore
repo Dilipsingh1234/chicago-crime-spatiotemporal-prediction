@@ -1,0 +1,41 @@
+# Data files: keep raw and processed data local because they can be large
+data/raw/
+data/processed/
+
+# Large generated artifacts
+results/models/
+results/predictions/
+models/*.pkl
+models/*.h5
+models/*.keras
+models/*.joblib
+*.joblib
+
+# Keep result metrics and paper tables
+!results/metrics/*.csv
+!results/metrics/*.json
+!paper/tables/*.csv
+!paper/tables/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc

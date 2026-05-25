@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.5699338492801245,
+  "macro_f1": 0.27277291674616094,
+  "weighted_f1": 0.43447383704653836,
+  "confusion_matrix": [
+    [
+      174,
+      9833,
+      362
+    ],
+    [
+      148,
+      38726,
+      601
+    ],
+    [
+      98,
+      18799,
+      646
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n       Other       0.41      0.02      0.03     10369\n    Property       0.57      0.98      0.72     39475\n     Violent       0.40      0.03      0.06     19543\n\n    accuracy                           0.57     69387\n   macro avg       0.46      0.34      0.27     69387\nweighted avg       0.50      0.57      0.43     69387\n",
+  "classes": [
+    "Other",
+    "Property",
+    "Violent"
+  ]
+}
